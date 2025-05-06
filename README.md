@@ -1,12 +1,41 @@
-# React + Vite
+# Modern Crypto Wallet Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, modern web-based cryptocurrency wallet generator for **Solana** and **Ethereum** chains, built using **React**, and styled with **Tailwind CSS**. This project was created as an assignment for Harkirat Singh's **Cohort 3**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Generates mnemonic phrase using BIP39
+- Add multiple Solana or Ethereum wallets from a single mnemonic
+- Toggle private keys for each wallet
+- Glassmorphism UI with modern gradients and dark mode
+-  Responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- React
+- Tailwind CSS
+- BIP39, Ethers.js, Solana Web3.js
+- Modern UI based on design specs with gradients and depth
+
+## How It Works
+
+1. Click **"Generate Mnemonic"** to create a secure phrase.
+2. Use buttons to **add wallets** under Solana or Ethereum.
+3. Copy addresses or toggle to view private keys.
+4. All wallets are derived using standard HD paths.
+
+## Getting Started
+
+# Clone the repo
+git clone https://github.com/Anshulsatone/WalletApp.git
+cd crypto-wallet-ui
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+Build for Production
+npm run build
